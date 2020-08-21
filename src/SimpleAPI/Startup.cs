@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
+
 namespace SimpleAPI
 {
     public class Startup
@@ -33,7 +34,7 @@ namespace SimpleAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //Umish
             app.UseMvc();
         }
     }
